@@ -3,10 +3,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://remi-vezy.netlify.com/"
 
 # Title of your site
-title = "Academic"
+title = "Rémi Vezy"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -20,7 +20,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "@remivezy"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -50,20 +50,20 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Rémi Vezy"
+  role = "PhD in Environmental Physics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "INRA", url = "http://www.inra.fr/en" },{ name = "UMR SYSTEM", url = "https://umr-system.cirad.fr/en" } ]
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "vezyremi@gmail.com"
+  address = "Montpellier SupAgro, 2 Place Viala, Bât. 27, 34060 Montpellier Cedex 2 - France"
+  office_hours = "Monday-Friday 09:00 to 18:00 or email for appointment"
+  phone = ""
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -92,17 +92,17 @@ defaultContentLanguageInSubdir = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 2
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "43.619898"
+  longitude = "3.855619"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "15:04"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -115,7 +115,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -145,8 +145,8 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
+  highlight_languages = ["r", "yaml"]
+  highlight_style = "github"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -217,23 +217,42 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:vezy.remi@gmail.com"
+
+  [[params.social]]
+      icon = "envelope"
+      icon_pack = "fa"
+      link = "mailto:remi.vezy@inra.fr"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/VezyRemi"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.fr/citations?user=09R4xY0AAAAJ&hl=eng"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "https://github.com/VEZY"
 
+  [[params.social]]
+      icon = "linkedin"
+      icon_pack = "fa"
+      link = "linkedin.com/in/remivezy"
+
+  [[params.social]]
+        icon = "orcid"
+        icon_pack = "ai"
+        link = "https://orcid.org/0000-0002-0808-1461"
+
+   [[params.social]]
+              icon = "researchgate"
+              icon_pack = "ai"
+              link = "https://www.researchgate.net/profile/Remi_Vezy"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
