@@ -59,7 +59,8 @@ defaultContentLanguageInSubdir = false
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "vezyremi@gmail.com"
+  email_gravatar = "vezy.remi@gmail.com" # Use this email for gravatar
+  email= "remi.vezy@inra.fr"
   address = "Montpellier SupAgro, 2 Place Viala, Bât. 27, 34060 Montpellier Cedex 2 - France"
   office_hours = "Monday-Friday 09:00 to 18:00 or email for appointment"
   phone = ""
@@ -75,7 +76,7 @@ defaultContentLanguageInSubdir = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+  logo = "favicon.ico"
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
@@ -92,7 +93,7 @@ defaultContentLanguageInSubdir = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 2
+  map = 1
   map_api_key = ""
   latitude = "43.619898"
   longitude = "3.855619"
@@ -215,11 +216,6 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:vezy.remi@gmail.com"
-
-  [[params.social]]
       icon = "envelope"
       icon_pack = "fa"
       link = "mailto:remi.vezy@inra.fr"
@@ -238,6 +234,11 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/VEZY"
+
+  [[params.social]]
+    icon = "gitlab"
+    icon_pack = "fa"
+    link = "https://gitlab.com/VEZY"
 
   [[params.social]]
       icon = "linkedin"
