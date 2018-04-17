@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>/project/maccac/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/vezy_et_al_2018/</loc>
       <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     </url>
@@ -133,7 +142,27 @@
     
     <url>
     
+      <loc>/tags/agroforestry/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/climate-change/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -162,6 +191,26 @@
     
     <url>
     
+      <loc>/tags/ecophysiology/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/modeling/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/plot/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
@@ -172,8 +221,18 @@
     
     <url>
     
+      <loc>/tags/process-based/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
