@@ -10,26 +10,30 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Ecophysiology",
+    "Environmental physics",
+    "Process-based Modeling"
+    "Empirical Modeling"
+    "R language"
+    "FORTRAN"
+    "Artificial Intelligence"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Environmental Physics"
+  institution = "Bordeaux Universiy, France"
+  year = 2017
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Master in Environmental Sciences, Mathematics and Modeling"
+  institution = "AgroParisTech"
+  year = 2013
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "Licence (=Bsc) in Ecology"
+  institution = "Toulouse University III (Paul Sabatier)"
+  year = 2011
  
 +++
 
