@@ -12,10 +12,10 @@ weight = 5
   interests = [
     "Ecophysiology",
     "Environmental physics",
-    "Process-based Modeling"
-    "Empirical Modeling"
-    "R language"
-    "FORTRAN"
+    "Process-based Modeling",
+    "Empirical Modeling",
+    "R language",
+    "FORTRAN",
     "Artificial Intelligence"
   ]
 
