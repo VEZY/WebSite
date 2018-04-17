@@ -11,6 +11,112 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>CoffeeFlux</title>
+      <link>/project/coffeeflux/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/coffeeflux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DynACof</title>
+      <link>/models/dynacof/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/models/dynacof/</guid>
+      <description>
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The DynACof process-based model computes plot-scale Net Primary Productivity, carbon allocation, growth, yield, energy, and water balance of coffee plantations according to management, while accounting for spatial effects using metamodels from the 3D process-based MAESPA. The model also uses coffee bud and fruit cohorts for reproductive development to better represent fruit carbon demand distribution along the year.&lt;/p&gt;
+
+&lt;h2 id=&#34;infos&#34;&gt;Infos&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Informations about installation, version release, source code and news are available on the &lt;a href=&#34;https://github.com/VEZY/DynACof&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;. This source is always the most up-to-date.
+Informations about model description (equations, state of the art, history) can be found on the third chapter of the &lt;a href=&#34;https://www.researchgate.net/publication/323469257_Simulation_de_pratiques_de_gestion_alternatives_pour_l&#39;adaptation_des_plantations_perennes_aux_changements_globaux&#34; target=&#34;_blank&#34;&gt;thesis manuscript&lt;/a&gt; (Vezy, 2017).
+NB : the manuscript is partly in French, but this chapter is in English.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The development version from &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; can be installed with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# install.packages(&amp;quot;devtools&amp;quot;)
+devtools::install_github(&amp;quot;VEZY/DynACof&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or using the lightweight &lt;a href=&#34;https://github.com/r-lib/remotes#readme&#34; target=&#34;_blank&#34;&gt;remotes&lt;/a&gt; package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# install.packages(&amp;quot;remotes&amp;quot;)
+remotes::install_github(&amp;quot;VEZY/DynACof&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For the moment, there is no &lt;a href=&#34;https://CRAN.R-project.org&#34; target=&#34;_blank&#34;&gt;CRAN&lt;/a&gt; released version of DynACof, but we work on that. You will soon be able to run this command to install the package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;DynACof&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This is a basic example using all defaults (parameters and meteorology) over 2 years :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list = ls())
+library(&amp;quot;DynACof&amp;quot;)
+Sys.setenv(TZ=&amp;quot;UTC&amp;quot;)
+DynACof(Period= as.POSIXct(c(&amp;quot;1979-01-01&amp;quot;, &amp;quot;1980-12-31&amp;quot;)))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To use your own data, you&amp;rsquo;ll have to tell DynACof where to find it using &lt;code&gt;Inpath&lt;/code&gt; parameter, and what is the files names with the &lt;code&gt;FileName&lt;/code&gt; parameter list:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list = ls())
+library(&amp;quot;DynACof&amp;quot;)
+Sys.setenv(TZ=&amp;quot;UTC&amp;quot;)
+DynACof(WriteIt = T, Period= as.POSIXct(c(&amp;quot;1979-01-01&amp;quot;, &amp;quot;1980-12-31&amp;quot;)),Inpath = &amp;quot;1-Input/Aquiares/&amp;quot;,Simulation_Name = &amp;quot;Test1&amp;quot;,FileName = list(Site = &amp;quot;1-Site.R&amp;quot;, Meteo =&amp;quot;2-Meteorology.txt&amp;quot;, Soil = &amp;quot;3-Soil.R&amp;quot;,Coffee = &amp;quot;4-Coffee.R&amp;quot;, Tree = NULL))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that the Meteo file can be of any regular format because the model uses the &lt;code&gt;data.table::fread&lt;/code&gt; function internally.
+Enjoy !!&lt;/p&gt;
+
+&lt;h2 id=&#34;repository-status&#34;&gt;Repository status&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.repostatus.org/#wip&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.repostatus.org/badges/latest/wip.svg&#34; alt=&#34;Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://travis-ci.com/VEZY/DynACof&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://travis-ci.com/VEZY/DynACof.svg?token=oehDDxBpmrzeWX8AdyPo&amp;amp;branch=master&#34; alt=&#34;Travis build status&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://gitter.im/DynACof/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://badges.gitter.im/DynACof/Lobby.svg?token=1d2e733532f5122f05de&amp;amp;branch=master&#34; alt=&#34;Join the chat at https://gitter.im/DynACof/Lobby\#&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/License-GPL%20v3-blue.svg&#34; alt=&#34;License: GPL v3&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The DynACof model was mainly developed thanks to the &lt;a href=&#34;../../project/maccac/index.html&#34;&gt;MACCAC project&lt;/a&gt;, which was funded by the french ANR (Agence Nationale de la Recherche). The authors were funded by &lt;a href=&#34;https://www.cirad.fr/en&#34; target=&#34;_blank&#34;&gt;CIRAD&lt;/a&gt; and &lt;a href=&#34;http://www.inra.fr/en/&#34; target=&#34;_blank&#34;&gt;INRA&lt;/a&gt;. The authors are grateful for the support of &lt;a href=&#34;https://www.catie.ac.cr/en/&#34; target=&#34;_blank&#34;&gt;CATIE&lt;/a&gt; for the long-term coffee agroforestry trial, the SOERE F-ORE-T which is supported annually by Ecofor, Allenvi and the French national research infrastructure &lt;a href=&#34;http://www.anaee-france.fr/fr/&#34; target=&#34;_blank&#34;&gt;ANAEE-F&lt;/a&gt;; the CIRAD-IRD-SAFSE project (France) and the PCP platform of CATIE. CoffeeFlux observatory was supported and managed by CIRAD researchers. We are grateful to the staff from Costa-Rica, in particular Alvaro Barquero, Alejandra Barquero, Jenny Barquero, Alexis Perez, Guillermo Ramirez, Rafael Acuna, Manuel Jara, Alonso Barquero for their technical and field support.&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Vezy, R., Simulation de pratiques de gestion alternatives pour l’adaptation des plantations pérennes aux changements globaux, in École doctorale science de l&amp;rsquo;environnement, spécialité physique de l&amp;rsquo;environnement. 2017, UNIVERSITÉ DE BORDEAUX: Bordeaux. p. 270. &lt;a href=&#34;https://www.researchgate.net/publication/323469257_Simulation_de_pratiques_de_gestion_alternatives_pour_l&#39;adaptation_des_plantations_perennes_aux_changements_globaux&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sub&gt;The DynACof logo was made using &lt;a href=&#34;http://logomakr.com&#34; title=&#34;Logo Makr&#34;&gt;LogoMakr.com&lt;/a&gt; &lt;/sub&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EucFlux</title>
+      <link>/project/eucflux/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/eucflux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MACACC project (ANR-13-AGRO-00)</title>
       <link>/project/maccac/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
@@ -32,11 +138,65 @@ MACCAC gathered economists, stakeholders (Professional Organisations + a large p
     </item>
     
     <item>
+      <title>MAESPA</title>
+      <link>/models/maespa/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/models/maespa/</guid>
+      <description>
+
+&lt;h2 id=&#34;brief-history-of-the-model&#34;&gt;Brief history of the model&lt;/h2&gt;
+
+&lt;p&gt;Maespa is a model of forest canopy radiation absorption, photosynthesis and water balance. The model has a long history, going back to the work of John Norman and Paul Jarvis in the 1970&amp;rsquo;s and 80&amp;rsquo;s. Ying -Ping Wang improved and tested the model for his PhD thesis (then called MAESTRO) (Wang &amp;amp; Jarvis 1990). In 1997 Belinda Medlyn obtained a version of the code from Ying-Ping Wang and revised the model, with the objectives of (i) modularising the code to make the program easier to understand and modify; and (ii) incorporating standard formulations of leaf gas exchange models (see Medlyn 2004 for a full history).&lt;/p&gt;
+
+&lt;p&gt;In 2008, Remko Duursma and Belinda Medlyn started expanding Maestra by including water balance and plant hydraulics routines, largely based on the SPA model by Mat Williams (Duursma and Medlyn 2012). The two models were independent for some time, but since 2013 they use the same code base. The diagram below shows how Maespa incorporates Maestra. It is straightforward to run the model &amp;lsquo;in Maestra mode&amp;rsquo;, which is consistent with the legacy Maestra model.&lt;/p&gt;
+
+&lt;p&gt;In 2018, Vezy et al. (see research article for full author list) modified the model to include several changes relative to the official &lt;a href=&#34;https://bitbucket.org/remkoduursma/maespa/branch/master&#34; target=&#34;_blank&#34;&gt;master&lt;/a&gt; branch of the model:
+* voxel-scale leaf evaporation
+* Computation of canopy air temperature and vapor pressure.
+* Iterations on leaf temperature until convergence
+* Aerodynamic conductance computation at plot scale (used for soil + canopy air temperature and vapor pressure)
+* Allow two wind extinction profile if ZHT (measurement height) is below canopy height (mainly used in agroforestry with measurements below the shade trees)
+* Bug fixes on slope computation&lt;/p&gt;
+
+&lt;h2 id=&#34;informations-and-technical-manual&#34;&gt;Informations and Technical manual&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All informations about MAESPA can be found in the &lt;a href=&#34;http://maespa.github.io&#34; target=&#34;_blank&#34;&gt;MAESPA website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Further informations on how to modify the input files to adapt them to the version we developed on the wiki from the unofficial &lt;a href=&#34;https://gitlab.com/VEZY/MAESPA/wikis/home&#34; target=&#34;_blank&#34;&gt;Gitlab repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://gitlab.com/VEZY/MAESPA&#34; target=&#34;_blank&#34;&gt;exact version&lt;/a&gt; used in Vezy et al. (2018). Carefull, this version is a development version and is not in full agreement with the MAESPA development guidelines (e.g. modified input call for distributed computation). The official, clean, deployed version is the one from repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;Vezy, R., et al., Measuring and modelling energy partitioning in canopies of varying complexity using MAESPA model. Agricultural and Forest Meteorology, 2018. 253-254: p. 203-217. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S016819231830042X&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MAESPA model modification to simulate stands with complex canopies structure</title>
       <link>/publication/vezy_et_al_2018/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/vezy_et_al_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReMIX</title>
+      <link>/project/remix/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/remix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STICS</title>
+      <link>/models/stics/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/models/stics/</guid>
       <description></description>
     </item>
     
@@ -48,33 +208,6 @@ MACCAC gathered economists, stakeholders (Professional Organisations + a large p
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/example-external-project/</guid>
-      <description></description>
     </item>
     
     <item>

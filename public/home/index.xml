@@ -52,7 +52,7 @@
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Apr 2018 14:33:00 +0000</pubDate>
       
       <guid>/home/talks/</guid>
       <description></description>
@@ -70,27 +70,34 @@
     <item>
       <title>Projects</title>
       <link>/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Apr 2018 14:25:00 +0000</pubDate>
       
       <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
+      <title>Models</title>
+      <link>/home/models/</link>
+      <pubDate>Tue, 17 Apr 2018 15:10:00 +0000</pubDate>
+      
+      <guid>/home/models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>/home/book/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X:
- CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+      <guid>/home/book/</guid>
+      <description>Le compagnon de l’utilisateur R. I am the author of the collaborative free open-source book &amp;ldquo;Le compagnon de l’utilisateur R&amp;rdquo;. This book is a side project that I work on during my free time, so this is still in progress. It is a book about how to use the R progamming language along with RStudio for data science, graphics, reproducible research and more, using state of the art tools such as tidyverse, ggplot2, plotly, data.</description>
     </item>
     
     <item>
       <title>Tags</title>
       <link>/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>/home/tags/</guid>
       <description></description>

@@ -2,18 +2,18 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = "2018-04-17T14:25:00"
+date = "2018-04-17T15:10:00"
 
-title = "Projects"
-subtitle = "The different research projects funding my work"
+title = "Models"
+subtitle = "The models I use or develop"
 
 # Order that this section will appear in.
-weight = 50
+weight = 60
 
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "project"
+folder = "models"
 
 # View.
 # Customize how projects are displayed.
@@ -33,24 +33,20 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "modeling"
-  tag = ".modeling"
+  name = "R"
+  tag = ".R"
 
   [[filter]]
-    name = "Perennial plantations"
-    tag = ".perennial"
+    name = "FORTRAN"
+    tag = ".FORTRAN"
 
   [[filter]]
-    name = "STICS"
-    tag = ".STICS"
+    name = "PBM"
+    tag = ".PBM"
 
   [[filter]]
-    name = "MAESPA"
-    tag = ".MAESPA"
-
-  [[filter]]
-    name = "DynACof"
-    tag = ".DynACof"
+    name = "Functional"
+    tag = ".Functional"
 
 [[filter]]
   name = "Other"

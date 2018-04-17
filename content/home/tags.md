@@ -2,12 +2,12 @@
 # Tag Cloud widget.
 widget = "tag_cloud"
 active = true
-date = 2017-09-20
+date = 2018-04-17
 
 title = "Tags"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 65
+weight = 75
 
 +++

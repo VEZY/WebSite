@@ -14,6 +14,33 @@
     
     <url>
     
+      <loc>/project/coffeeflux/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/models/dynacof/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/eucflux/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/maccac/</loc>
       <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     </url>
@@ -23,7 +50,34 @@
     
     <url>
     
+      <loc>/models/maespa/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/vezy_et_al_2018/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/remix/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/models/stics/</loc>
       <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -61,24 +115,6 @@
     
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -142,6 +178,16 @@
     
     <url>
     
+      <loc>/tags/agro-ecology/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/agroforestry/</loc>
       <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -171,8 +217,8 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>/tags/coffee/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -181,8 +227,18 @@
     
     <url>
     
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>/tags/crops/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/dynacof/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -201,7 +257,107 @@
     
     <url>
     
+      <loc>/tags/eddy-covariance/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/eucalyptus/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/fortran/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/functional/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/maespa/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/mixture/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/modeling/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/models/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/pbm/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/perennial/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/pinus/</loc>
       <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -251,6 +407,16 @@
     
     <url>
     
+      <loc>/tags/r/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/r/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
@@ -283,6 +449,16 @@
     
       <loc>/</loc>
       <lastmod>2018-04-16T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/stics/</loc>
+      <lastmod>2018-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

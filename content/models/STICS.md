@@ -1,25 +1,28 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2018-04-17"
 
 # Project title.
-title = "External Project"
+title = "STICS"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "Simulateur mulTIdisciplinaire pour les Cultures Standard (Multidisciplinary simulator for standard crops)"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "STICS.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["demo"]
+tags = ["STICS","FORTRAN","Functional"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://example.org"
+external_link = "https://www6.paca.inra.fr/stics_eng/"
 
 # Does the project detail page use math formatting?
 math = false
 
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "STICS.jpg"
+caption = ""
 +++
-

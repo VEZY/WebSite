@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Agro-ecology</title>
+      <link>/tags/agro-ecology/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/agro-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Agroforestry</title>
       <link>/tags/agroforestry/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
@@ -40,20 +49,29 @@
     </item>
     
     <item>
-      <title>Deep-learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Coffee</title>
+      <link>/tags/coffee/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>/tags/coffee/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Crops</title>
+      <link>/tags/crops/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/demo/</guid>
+      <guid>/tags/crops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DynACof</title>
+      <link>/tags/dynacof/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dynacof/</guid>
       <description></description>
     </item>
     
@@ -67,11 +85,92 @@
     </item>
     
     <item>
+      <title>Eddy-covariance</title>
+      <link>/tags/eddy-covariance/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eddy-covariance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eucalyptus</title>
+      <link>/tags/eucalyptus/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eucalyptus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FORTRAN</title>
+      <link>/tags/fortran/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fortran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional</title>
+      <link>/tags/functional/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAESPA</title>
+      <link>/tags/maespa/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/maespa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixture</title>
+      <link>/tags/mixture/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mixture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Modeling</title>
       <link>/tags/modeling/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PBM</title>
+      <link>/tags/pbm/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pbm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perennial</title>
+      <link>/tags/perennial/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/perennial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pinus</title>
+      <link>/tags/pinus/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pinus/</guid>
       <description></description>
     </item>
     
@@ -94,6 +193,15 @@
     </item>
     
     <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -108,6 +216,15 @@
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STICS</title>
+      <link>/tags/stics/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/stics/</guid>
       <description></description>
     </item>
     
