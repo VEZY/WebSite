@@ -36,17 +36,17 @@ filter_default = 0
   name = "R"
   tag = ".R"
 
-  [[filter]]
-    name = "FORTRAN"
-    tag = ".FORTRAN"
+[[filter]]
+  name = "FORTRAN"
+  tag = ".FORTRAN"
 
-  [[filter]]
-    name = "PBM"
-    tag = ".PBM"
+[[filter]]
+  name = "PBM"
+  tag = ".PBM"
 
-  [[filter]]
-    name = "Functional"
-    tag = ".Functional"
+[[filter]]
+  name = "Functional"
+  tag = ".Functional"
 
 [[filter]]
   name = "Other"

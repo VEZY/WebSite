@@ -243,17 +243,17 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
       icon = "linkedin"
       icon_pack = "fa"
-      link = "linkedin.com/in/remivezy"
+      link = "https://www.linkedin.com/in/remivezy/"
 
   [[params.social]]
-        icon = "orcid"
-        icon_pack = "ai"
-        link = "https://orcid.org/0000-0002-0808-1461"
+      icon = "orcid"
+      icon_pack = "ai"
+      link = "https://orcid.org/0000-0002-0808-1461"
 
    [[params.social]]
-              icon = "researchgate"
-              icon_pack = "ai"
-              link = "https://www.researchgate.net/profile/Remi_Vezy"
+      icon = "researchgate"
+      icon_pack = "ai"
+      link = "https://www.researchgate.net/profile/Remi_Vezy"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
