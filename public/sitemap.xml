@@ -86,6 +86,24 @@
     
     <url>
     
+      <loc>/publication/christina_et_al_2018/</loc>
+      <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/vezy_2017/</loc>
+      <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -122,8 +140,8 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <loc>/publication/gaucherel_et_al_2016/</loc>
+      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -131,8 +149,8 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <loc>/post/getting-started/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -149,17 +167,8 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <loc>/publication_types/0/</loc>
+      <lastmod>2017-12-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -398,7 +407,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-12-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

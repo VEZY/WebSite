@@ -45,5 +45,8 @@ In 2018, Vezy et al. (see research article for full author list) modified the mo
 * Further informations on how to modify the input files to adapt them to the version we developed on the wiki from the unofficial [Gitlab repository](https://gitlab.com/VEZY/MAESPA/wikis/home)
 * The [exact version](https://gitlab.com/VEZY/MAESPA) used in Vezy et al. (2018). Carefull, this version is a development version and is not in full agreement with the MAESPA development guidelines (e.g. modified input call for distributed computation). The official, clean, deployed version is the one from repository.
 
+## Validation website
+The results from the validation of the new version of the model are available on this [website](https://vezy.github.io/MAESPA_Validation/)
+
 ## References
 Vezy, R., et al., Measuring and modelling energy partitioning in canopies of varying complexity using MAESPA model. Agricultural and Forest Meteorology, 2018. 253-254: p. 203-217. [Link](https://www.sciencedirect.com/science/article/pii/S016819231830042X).

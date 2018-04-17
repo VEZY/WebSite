@@ -167,6 +167,10 @@ MACCAC gathered economists, stakeholders (Professional Organisations + a large p
 &lt;li&gt;The &lt;a href=&#34;https://gitlab.com/VEZY/MAESPA&#34; target=&#34;_blank&#34;&gt;exact version&lt;/a&gt; used in Vezy et al. (2018). Carefull, this version is a development version and is not in full agreement with the MAESPA development guidelines (e.g. modified input call for distributed computation). The official, clean, deployed version is the one from repository.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;validation-website&#34;&gt;Validation website&lt;/h2&gt;
+
+&lt;p&gt;The results from the validation of the new version of the model are available on this &lt;a href=&#34;https://vezy.github.io/MAESPA_Validation/&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;p&gt;Vezy, R., et al., Measuring and modelling energy partitioning in canopies of varying complexity using MAESPA model. Agricultural and Forest Meteorology, 2018. 253-254: p. 203-217. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S016819231830042X&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;.&lt;/p&gt;
@@ -201,6 +205,24 @@ MACCAC gathered economists, stakeholders (Professional Organisations + a large p
     </item>
     
     <item>
+      <title>Simulating the effects of different potassium and water supply regimes on soil water content and water table depth over a rotation of a tropical Eucalyptus grandis plantation</title>
+      <link>/publication/christina_et_al_2018/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/christina_et_al_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation de pratiques de gestion alternatives pour l&#39;adaptation des plantations pérennes aux changements globaux</title>
+      <link>/publication/vezy_2017/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/vezy_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
@@ -208,6 +230,15 @@ MACCAC gathered economists, stakeholders (Professional Organisations + a large p
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Spatial analysis of endemism to redefine conservation areas in Western Ghats (India)</title>
+      <link>/publication/gaucherel_et_al_2016/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gaucherel_et_al_2016/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -399,16 +430,6 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -453,16 +474,6 @@ Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
