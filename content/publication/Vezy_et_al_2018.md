@@ -1,5 +1,5 @@
 +++
-title = "MAESPA model modification to simulate stands with complex canopies structure"
+title = "Measuring and modelling energy partitioning in canopies of varying complexity using MAESPA model"
 date = "2018-04-17"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
