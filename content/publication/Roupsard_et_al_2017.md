@@ -2,7 +2,7 @@
 title = "Eight years studying ecosystem services in a coffee agroforestry observatory. Practical applications for the stakeholders"
 date = "2017"
 authors = ["O Roupsard"," K Van Den Meersche"," C Allinne"," P Vaast"," B Rapidel"," ..."]
-publication_types = [" 2 "]
+publication_types = ["2"]
 publication = "In **"
 publication_short = "In *NA*"
 abstract = ""

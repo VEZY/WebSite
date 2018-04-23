@@ -9,7 +9,7 @@ Update_Publications= function(id,default_image= "Default_preview.png",
         paste0('title = "',as.character(Publications$title[i]),'"'),
         paste0('date = "',Publications$year[i],'"'),
         paste0('authors = ["',Format_Authors(Publications,i),'"]'),
-        paste('publication_types = ["',type,'"]'),
+        paste0('publication_types = ["',type,'"]'),
         paste0('publication = "In *',as.character(Publications$journal[i]),'*"'),
         paste0('publication_short = "In *',get_Acronym(as.character(Publications$journal[i])),'*"'),
         'abstract = ""',
@@ -36,21 +36,6 @@ Update_Publications= function(id,default_image= "Default_preview.png",
     
     Filepath= file.path("content/publication/",Publi_file_name(Publications,i))
     write_publi(Publications = Publications,namelist=namelist,Filepath = Filepath,i = i)
-    # if(!file.exists(Filepath)){
-    #   file.create(Filepath, showWarnings = TRUE)
-    #   writeLines(text = namelist,con = Filepath,sep = '\n')  
-    # }else{
-    #   ComWords= common_words(Filepath = Filepath, Title = as.character(Publications$title[i]))
-    #   if(ComWords<0.8){
-    #     Filepath=     
-    #       file.path("content/publication/",
-    #                 Publi_file_name(list(author=Publications$author[i],
-    #                                      year= paste0(Publications$year[i],"_b")),1))
-    #     file.create(Filepath, showWarnings = TRUE)
-    #     writeLines(text = namelist,con = Filepath,sep = '\n')  
-    #   }
-    #   warning("File ",Filepath," exists already, cannot overwrite it")
-    # }
   }
 }
 

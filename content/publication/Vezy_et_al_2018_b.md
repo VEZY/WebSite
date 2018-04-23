@@ -2,7 +2,7 @@
 title = "Measuring and modelling energy partitioning in canopies of varying complexity using MAESPA model"
 date = "2018"
 authors = ["R Vezy"," M Christina"," O Roupsard"," Y Nouvellon"," R Duursma"," B Medlyn"," ..."]
-publication_types = [" 2 "]
+publication_types = ["2"]
 publication = "In *Agricultural and Forest Meteorology*"
 publication_short = "In *A.F.M*"
 abstract = ""

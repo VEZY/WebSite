@@ -2,7 +2,7 @@
 title = "Effect of shade on temperature mitigation and canopy assimilation of coffee agroforestry systems"
 date = "2016"
 authors = ["R Vezy"," D Deshors-Picart"," M Christina"," S Georgiou"," F Charbonnier"," ..."]
-publication_types = [" 2 "]
+publication_types = ["2"]
 publication = "In *European Agroforestry Conference, np*"
 publication_short = "In *E.A.C.N*"
 abstract = ""

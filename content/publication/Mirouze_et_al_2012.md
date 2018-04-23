@@ -2,7 +2,7 @@
 title = "Morphometric and Morphological analysis of leaves in two species of Araceae: Montrichardia linifera and Montrichardia arborescens among different French Guiana..."
 date = "2012"
 authors = ["E Mirouze"," A Staquet"," R Vezy"]
-publication_types = [" 2 "]
+publication_types = ["2"]
 publication = "In *Journal of Ecofog*"
 publication_short = "In *J.E*"
 abstract = ""

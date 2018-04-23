@@ -2,7 +2,7 @@
 title = "Spatial endemism analysis to redefine conservation areas in Western Ghats (India)"
 date = "NA"
 authors = ["C Gaucherel"," R Vézy"," F Gontrand"," D Bouchet"," BR Ramesh"]
-publication_types = [" 2 "]
+publication_types = ["2"]
 publication = "In **"
 publication_short = "In *NA*"
 abstract = ""
