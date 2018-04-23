@@ -7,7 +7,7 @@ publication = "In *Journal for nature conservation*"
 publication_short = "In *J.N.C*"
 abstract = ""
 abstract_short = ""
-image_preview = "Default_preview.png"
+image_preview = "Gaucherel_et_al_2016.png"
 selected =  false
 projects = [""]
 url_pdf = ""
@@ -22,6 +22,6 @@ url_source =  ""
 math = true
 highlight = true
 [header]
-image = "Default_preview.png"
+image = "Gaucherel_et_al_2016.png"
 caption =  ""
 +++
