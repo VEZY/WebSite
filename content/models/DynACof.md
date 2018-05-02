@@ -73,7 +73,7 @@ Sys.setenv(TZ="UTC")
 DynACof(Period= as.POSIXct(c("1979-01-01", "1980-12-31")))
 ```
 
-To use your own data, you'll have to tell DynACof where to find it using `Inpath` parameter, and what is the files names with the `FileName` parameter list:
+To use your own data, you have to tell DynACof where to find it using `Inpath` parameter, and what are the files names with the `FileName` parameter list:
 
 ``` r
 rm(list = ls())
@@ -83,6 +83,7 @@ DynACof(WriteIt = T, Period= as.POSIXct(c("1979-01-01", "1980-12-31")),Inpath = 
 ```
 
 Note that the Meteo file can be of any regular format because the model uses the `data.table::fread` function internally.
+
 Enjoy !!
 
 ## Repository status
