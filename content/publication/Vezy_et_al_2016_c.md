@@ -1,6 +1,6 @@
 +++
 title = "Effect of shade on temperature mitigation and canopy assimilation of coffee agroforestry systems. Abstract number 115"
-date = "2016"
+date = "2016-01-01"
 authors = ["R Vezy"," D Picart"," M Christina"," S Georgiou"," F Charbonnier"," D Loustau"," ..."]
 publication_types = ["2"]
 publication = "In *EURAF*"
@@ -9,7 +9,7 @@ abstract = ""
 abstract_short = ""
 image_preview = "Default_preview.png"
 selected =  false
-projects = [""]
+projects = ["MACCAC"]
 url_pdf = ""
 url_preprint = ""
 url_code = ""

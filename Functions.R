@@ -7,7 +7,7 @@ Update_Publications= function(id,default_image= "Default_preview.png",
     namelist=
       c("+++",
         paste0('title = "',as.character(Publications$title[i]),'"'),
-        paste0('date = "',Publications$year[i],'"'),
+        paste0('date = "',lubridate::ymd(paste0(Publications$year[i],"-01-01")),'"'),
         paste0('authors = ["',Format_Authors(Publications,i),'"]'),
         paste0('publication_types = ["',type,'"]'),
         paste0('publication = "In *',as.character(Publications$journal[i]),'*"'),
