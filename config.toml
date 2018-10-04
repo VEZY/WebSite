@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = false
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email_gravatar = "vezy.remi@gmail.com" # Use this email for gravatar
-  email= "remi.vezy@inra.fr"
+  email= "remi dot vezy at cirad dot  fr"
   address = "Bios  -  UMR AMAP Bâtiment PS2 - Bureau 204 TA A-51 / PS2 - Boulevard de la Lironde - 34398 Montpellier Cedex 5 France"
   office_hours = "Monday-Friday 09:00 to 18:00 or email for appointment"
   phone = ""
@@ -215,10 +215,10 @@ defaultContentLanguageInSubdir = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-      icon = "envelope"
-      icon_pack = "fa"
-      link = "mailto:remi.vezy@cirad.fr"
+  # [[params.social]]
+  #     icon = "envelope"
+  #     icon_pack = "fa"
+  #     link = "mailto:remi.vezy@cirad.fr"
 
   [[params.social]]
     icon = "twitter"
