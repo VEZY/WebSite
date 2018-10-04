@@ -12,8 +12,7 @@ weight = 5
   interests = [
     "Ecophysiology",
     "Environmental physics",
-    "Process-based Modeling",
-    "Empirical Modeling",
+    "Process-based Modelling",
     "R language",
     "FORTRAN",
     "Artificial Intelligence"
@@ -39,4 +38,4 @@ weight = 5
 
 # Biography
 
-Rémi Vezy is a post-doctorate scientist working in agronomy at the UMR SYSTEM lab in the SupAgro campus in Montpellier, France. His research interests include agronomy, ecophysiology, environmental physics and computer models.
+I am a reasearcher working for CIRAD at the UMR AMAP lab in Montpellier, France. My research interests include ecophysiology, environmental physics, computer models and agronomy.

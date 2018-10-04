@@ -55,13 +55,13 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "INRA", url = "http://www.inra.fr/en" },{ name = "UMR SYSTEM", url = "https://umr-system.cirad.fr/en" } ]
+  organizations = [ { name = "CIRAD", url = "https://www.cirad.fr/en/home-page" },{ name = "UMR AMAP", url = "http://amap.cirad.fr/en/index.php" } ]
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email_gravatar = "vezy.remi@gmail.com" # Use this email for gravatar
   email= "remi.vezy@inra.fr"
-  address = "Montpellier SupAgro, 2 Place Viala, Bât. 27, 34060 Montpellier Cedex 2 - France"
+  address = "Bios  -  UMR AMAP Bâtiment PS2 - Bureau 204 TA A-51 / PS2 - Boulevard de la Lironde - 34398 Montpellier Cedex 5 France"
   office_hours = "Monday-Friday 09:00 to 18:00 or email for appointment"
   phone = ""
   skype = ""
@@ -95,8 +95,8 @@ defaultContentLanguageInSubdir = false
   #   3: OpenStreetMap (Mapbox)
   map = 1
   map_api_key = ""
-  latitude = "43.619898"
-  longitude = "3.855619"
+  latitude = "43.652212"
+  longitude = "3.861347"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
@@ -218,7 +218,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
       icon = "envelope"
       icon_pack = "fa"
-      link = "mailto:remi.vezy@inra.fr"
+      link = "mailto:remi.vezy@cirad.fr"
 
   [[params.social]]
     icon = "twitter"
