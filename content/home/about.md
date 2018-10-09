@@ -38,4 +38,4 @@ weight = 5
 
 # Biography
 
-I am a reasearcher working for CIRAD at the UMR AMAP lab in Montpellier, France. My research interests include ecophysiology, environmental physics, computer models and agronomy.
+I am a reasearcher working for CIRAD at the UMR AMAP lab in Montpellier, France. I am specialized on Functional-Structural Plant Modelling (FSPM), and my research interests include ecophysiology, environmental physics, tree architecture, computer models and agronomy.
