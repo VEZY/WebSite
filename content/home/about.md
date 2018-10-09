@@ -10,6 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Structure-Function interaction",
     "Ecophysiology",
     "Environmental physics",
     "Process-based Modelling",
@@ -21,12 +22,12 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Environmental Physics"
-  institution = "Bordeaux Universiy, France"
+  institution = "Bordeaux University, France"
   year = 2017
 
 [[education.courses]]
   course = "Master in Environmental Sciences, Mathematics and Modeling"
-  institution = "AgroParisTech"
+  institution = "AgroParisTech (Kourou and Montpellier)"
   year = 2013
 
 [[education.courses]]
