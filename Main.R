@@ -3,7 +3,7 @@
 # Serve site
 library(blogdown)
 blogdown::serve_site()
-
+blogdown::build_site()
 # Update publications :
 library(scholar)
 library(lubridate)
