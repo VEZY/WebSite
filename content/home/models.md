@@ -44,6 +44,10 @@ filter_default = 0
   name = "PBM"
   tag = ".PBM"
 
+  [[filter]]
+    name = "FSPM"
+    tag = ".FSPM"
+
 [[filter]]
   name = "Functional"
   tag = ".Functional"

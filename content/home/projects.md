@@ -2,10 +2,10 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = "2018-04-17T14:25:00"
+date = "2019-11-10T13:33:00"
 
 title = "Projects"
-subtitle = "The different research projects funding my work"
+subtitle = "The different research projects I work(ed) on"
 
 # Order that this section will appear in.
 weight = 50
@@ -32,13 +32,13 @@ filter_default = 0
   name = "All"
   tag = "*"
 
-[[filter]]
-  name = "modeling"
-  tag = ".modeling"
-
   [[filter]]
     name = "Perennial plantations"
     tag = ".perennial"
+
+  [[filter]]
+    name = "FSPM"
+    tag = ".FSPM"
 
   [[filter]]
     name = "STICS"
@@ -51,9 +51,8 @@ filter_default = 0
   [[filter]]
     name = "DynACof"
     tag = ".DynACof"
-
-[[filter]]
-  name = "Other"
-  tag = ".demo"
-
+    
+  [[filter]]
+    name = "Mixtures"
+    tag = ".mixture"
 +++

@@ -6,7 +6,7 @@ Update_Publications= function(id,default_image= "Default_preview.png",
   for(i in 1:length(Publications$title)){
     namelist=
       c("+++",
-        paste0('title = "',as.character(Publications$title[i]),'"'),
+        paste0('title = "',gsub(pattern = "\"", "",as.character(Publications$title[i])),'"'),
         paste0('date = "',lubridate::ymd(paste0(Publications$year[i],"-01-01")),'"'),
         paste0('authors = ["',Format_Authors(Publications,i),'"]'),
         paste0('publication_types = ["',type,'"]'),
@@ -34,7 +34,7 @@ Update_Publications= function(id,default_image= "Default_preview.png",
         '+++')
     namelist= paste(namelist,collapse = '\n')
     
-    Filepath= file.path("content/publication/",Publi_file_name(Publications,i))
+    Filepath= file.path("content/publication",Publi_file_name(Publications,i))
     write_publi(Publications = Publications,namelist=namelist,Filepath = Filepath,i = i)
   }
 }

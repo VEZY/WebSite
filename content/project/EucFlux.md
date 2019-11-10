@@ -12,8 +12,8 @@ summary = "Quantification of the Carbon, Water and Nutrient Balances, at the Eco
 image_preview = "EucFlux.jpg"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["mixture", "crops", "STICS","agro-ecology","modeling"]`
-tags = ["Eucalyptus","ecophysiology","modeling","eddy-covariance"]
+# Example: `tags = ["mixture", "crops", "STICS","agro-ecology"]`
+tags = ["Eucalyptus","ecophysiology","eddy-covariance"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://www.ipef.br/eucflux/en/"

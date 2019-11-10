@@ -12,8 +12,8 @@ summary = "Coffee-flux is a platform where collaborative research on coffee agro
 image_preview = "CoffeeFlux.jpg"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["mixture", "crops", "STICS","agro-ecology","modeling"]`
-tags = ["climate change","agroforestry","ecophysiology","modeling","process-based","perennial",
+# Example: `tags = ["mixture", "crops", "STICS","agro-ecology"]`
+tags = ["climate change","agroforestry","ecophysiology","process-based","perennial",
         "MAESPA","DynACof","Coffee"]
 
 # Optional external URL for project (replaces project detail page).

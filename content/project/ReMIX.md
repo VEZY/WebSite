@@ -12,8 +12,8 @@ summary = "ReMIX is a Research and Innovation project, funded by the EU's Horizo
 image_preview = "remix_logo.jpg"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["mixture", "crops", "STICS","agro-ecology","modeling"]`
-tags = ["mixture", "crops", "STICS","agro-ecology","modeling"]
+# Example: `tags = ["mixture", "crops", "STICS","agro-ecology"]`
+tags = ["mixture", "crops", "STICS","agro-ecology"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://www.remix-intercrops.eu/"
