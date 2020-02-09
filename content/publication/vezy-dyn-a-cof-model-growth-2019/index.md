@@ -1,0 +1,11 @@
+---
+title: "DynACof, a Model for Growth, Yield, Carbon, Water, Energy Balances and Ecosystem Services of Coffea in Agroforestry"
+date: 2019-05-01
+publishDate: 2020-02-09T20:02:25.716840Z
+authors: ["Rémi Vezy", "Guerric le Maire", "Fabien Charbonnier", "Mathias Christina", "Selena Georgiou", "Pablo Imbach", "Hugo G. Hidalgo", "Eric J. Alfaro", "Céline Blitz-Frayret", "Jean-Paul Laclau", "Peter Lehner", "Diego Robelo", "Denis Loustau", "Olivier Roupsard", "C. Dupraz", "Gosme M", "G. Lawson"]
+publication_types: ["1"]
+abstract: "Agroforestry systems (AFS) are complex to model mainly due to the high spatial variability induced by the shade trees. Recently, the microclimate and light heterogeneity issue in AFS has been addressed using the 3D ecophysiological process-based model MAESPA (Charbonnier et al., 2013; Vezy et al., 2018). MAESPA surpassed the classical sun/shade dichotomy in AFS (Charbonnier et al., 2014) and provided continuous maps of e.g. available light, light-use-efficiency and canopy temperature within Coffea Agroforestry Systems (CAS). A step further was to design a crop model for Coffea grown under agroforestry that would benefit from this continuum to estimate ecosystem services on the long term and under climate change scenarios. We designed DynA_Cof, a new process-based growth and yield model to compute plot-scale net and gross primary productivity, carbon allocation, growth, yield, energy, and water balance of CAS according to shade tree species and management, while accounting for fine-scale spatial effects using MAESPA metamodels (Figure 1). DynA_Cof satisfactorily simulated the daily plot-scale gross primary productivity (RMSE= 1.69 gC m-2 d-1 on 1562 days) and the energy and water balances (RMSE: AET= 0.63 mm d-1, H= 1.27 MJ m-2 d-1, Rn= 1.98 MJ m-2 d-1) compared to measurements from an eddy-flux tower in Aquiares (Costa Rica) and also the NPP for above and below-ground organs, coffee bean yield and shade tree wood production compared to a comprehensive database from this site."
+featured: false
+publication: "*World Congress on Agroforestry*"
+---
+
