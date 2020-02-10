@@ -21,3 +21,5 @@ tags = ["FSPM", "FSPM"]
 # Does the project detail page use math formatting?
 math = false
 +++
+
+PalmStudio aim at developing a functional-structural plant model for oil palms ([*Elaeis guineensis*](https://en.wikipedia.org/wiki/Elaeis)). The model is developed using three models: [ARCHIMED](http://amapstudio.cirad.fr/soft/archimed/start) for the biophysics, [XPalm](http://amapstudio.cirad.fr/projects) for the growth and yield, and [VPALM](http://amapstudio.cirad.fr/projects) for the 3D mock-ups building (as in the above image).

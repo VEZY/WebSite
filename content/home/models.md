@@ -27,26 +27,40 @@ filter_default = 0
 
  [[content.filter_button]]
    name = "R"
-   tag = ".R"
+   tag = "R"
 
   [[content.filter_button]]
     name = "FORTRAN"
-    tag = ".FORTRAN"
+    tag = "FORTRAN"
 
   [[content.filter_button]]
     name = "PBM"
-    tag = ".PBM"
+    tag = "PBM"
 
   [[content.filter_button]]
     name = "FSPM"
-    tag = ".FSPM"
+    tag = "FSPM"
 
   [[content.filter_button]]
     name = "Functional"
-    tag = ".Functional"
+    tag = "Functional"
 
   [[content.filter_button]]
     name = "Other"
-    tag = ".demo"
+    tag = "demo"
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "2"
+
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   5 = Showcase
+  view = 3
+
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows = false
 
 +++

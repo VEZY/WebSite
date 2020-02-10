@@ -27,27 +27,27 @@ subtitle = ""
 
    [[content.filter_button]]
      name = "Perennial plantations"
-     tag = ".perennial"
+     tag = "perennial"
 
    [[filter]]
      name = "FSPM"
-     tag = ".FSPM"
+     tag = "FSPM"
 
    [[content.filter_button]]
      name = "STICS"
-     tag = ".STICS"
+     tag = "STICS"
 
    [[content.filter_button]]
      name = "MAESPA"
-     tag = ".MAESPA"
+     tag = "MAESPA"
 
    [[content.filter_button]]
      name = "DynACof"
-     tag = ".DynACof"
+     tag = "DynACof"
 
    [[content.filter_button]]
      name = "Mixtures"
-     tag = ".mixture"
+     tag = "mixture"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
