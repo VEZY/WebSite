@@ -21,9 +21,10 @@ organizations:
 bio: My main research topic is about Functional-Structural Plant Modelling (FSPM).
 
 interests:
-- Structure-Function interaction
+- Function-Structure interaction
 - Ecophysiology
 - Environmental physics
+- LiDAR
 - Process-based Modelling
 - R language
 - Julia language
@@ -35,8 +36,7 @@ education:
     institution: Bordeaux University, France
     year: 2017
   - course: Master in Environmental Sciences, Mathematics and Modelling
-    institution: Master in Environmental Sciences, Mathematics and Modeling
-    year: 2013
+    institution: AgroParisTech
   - course: Licence (=Bsc) in Ecology
     institution: Toulouse University III (Paul Sabatier)
     year: 2011

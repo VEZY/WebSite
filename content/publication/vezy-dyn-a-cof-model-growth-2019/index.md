@@ -8,4 +8,3 @@ abstract: "Agroforestry systems (AFS) are complex to model mainly due to the hig
 featured: false
 publication: "*World Congress on Agroforestry*"
 ---
-

@@ -31,5 +31,10 @@ subtitle = ""
   icon_pack = "fas"
   name = "Blender"
   description = "30%"
-
+  
+[[feature]] 
+  icon = "video"
+  icon_pack = "fas"
+  name = "LiDAR"
+  description = "60%"
 +++
