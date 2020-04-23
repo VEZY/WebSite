@@ -18,10 +18,10 @@ organizations:
   url: "https://www.cirad.fr/en/home-page"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My main research topic is about Functional-Structural Plant Modelling (FSPM).
+bio: My main research topic is Functional-Structural Plant Modelling (FSPM).
 
 interests:
-- Function-Structure interaction
+- Structure-Function interaction
 - Ecophysiology
 - Environmental physics
 - LiDAR
@@ -77,4 +77,4 @@ user_groups:
 - Visitors
 ---
 
-I am a researcher working for CIRAD at the UMR AMAP lab in Montpellier, France. I am specialized on Functional-Structural Plant Modelling (FSPM), and my research interests include ecophysiology, environmental physics, tree architecture, computer models and agronomy.
+I am a researcher working at CIRAD in the AMAP lab in Montpellier, France. I am specialized in Functional-Structural Plant Modelling (FSPM), and my research interests include ecophysiology, environmental physics, tree architecture, computer models and agronomy.
