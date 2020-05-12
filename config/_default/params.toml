@@ -114,6 +114,7 @@ contact_links = [
   {icon = "gitlab", icon_pack = "fab", name = "Gitlab", link = "https://gitlab.com/VEZY"},
   {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/remivezy/"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   ]
 
 ############################
