@@ -9,24 +9,34 @@
   weight = 10
 
 [[main]]
-  name = "Experience"
-  url = "#experience"
-  weight = 20
-
-[[main]]
   name = "Publications"
   url = "#featured"
-  weight = 25
+  weight = 20
 
+#[[main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 30
+
+[[main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 21
+  
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Models"
   url = "#models"
-  weight = 40
+  weight = 50
+
+[[main]]
+  name = "Books"
+  url = "#books"
+  weight = 60
 
 [[main]]
   name = "Contact"
