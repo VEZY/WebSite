@@ -23,20 +23,22 @@
   url = "#talks"
   weight = 21
   
+  
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Books"
+  url = "#books"
   weight = 40
 
 [[main]]
   name = "Models"
   url = "#models"
   weight = 50
-
+  
 [[main]]
-  name = "Books"
-  url = "#books"
+  name = "Projects"
+  url = "#projects"
   weight = 60
+
 
 [[main]]
   name = "Contact"
