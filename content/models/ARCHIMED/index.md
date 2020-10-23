@@ -1,12 +1,12 @@
 ---
 # Date this page was created.
-date: "2019-11-10"
+date: "2020-10-23"
 
 # Project title.
-title: ARCHIMED
+title: ARCHIMED platform
 
 # Project summary to display on homepage.
-summary: A model to simulate biophysical processes of plant in 3D
+summary: A modeling platform to simulate plants biophysical processes, growth and development.
 
 # Tags: can be used for filtering projects.
 tags:
@@ -14,9 +14,6 @@ tags:
 - PBM
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://amapstudio.cirad.fr/soft/archimed/start"
+external_link: "https://archimed-platform.github.io/"
 
-# Optional featured image (relative to `static/img/` folder).
-image:
-  caption: ARCHIMED
 ---
