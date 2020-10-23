@@ -78,3 +78,5 @@ user_groups:
 ---
 
 I am a researcher working at CIRAD in the AMAP lab in Montpellier, France. I am specialized in Functional-Structural Plant Modelling (FSPM), and my research interests include ecophysiology, environmental physics, tree architecture, computer models and agronomy.
+
+I am the co-manager of the FSPM theme of AMAP along with Jean Dauzat. I work mainly on the [ARCHIMED platform](https://archimed-platform.github.io/) but I am also a member of the EPS, the team of the STICS project ([referent for the intercrop version](https://www6.paca.inrae.fr/stics_eng/zoom-on/Presentation)).
