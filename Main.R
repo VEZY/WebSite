@@ -11,6 +11,8 @@ blogdown::build_site()
 # Then update the .bib file at the root of the repo, and run:
 # academic import --bibtex <path_to_your/publications.bib>
 
+# For me:
+# academic import --bibtex references_cor.bib
 # library(scholar)
 # library(lubridate)
 # source("Functions.R")
